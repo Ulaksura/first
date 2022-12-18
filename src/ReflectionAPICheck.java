@@ -49,7 +49,7 @@ public class ReflectionAPICheck {
             e.printStackTrace();
         }
     }
-    public static<T> void getMethod(Object obj, String MethodName, T args)
+    public static<T> void getMethod(Object obj, String MethodName,  T args)
     {
         try {
             Method method = obj.getClass().getDeclaredMethod(MethodName, args.getClass());
